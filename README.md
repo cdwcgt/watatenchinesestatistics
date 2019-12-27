@@ -1,1 +1,3 @@
-# watatenchinesestatistics
+# 中国天使人口普查
+这个项目用来统计b站(www.bilibili.com)中"天使降临到我身边"与#天使降临到我身边 的播放量与订阅量统计。
+通过excel体现
