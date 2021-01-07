@@ -30,7 +30,7 @@ def get_content(url , data = None):
     timeout = random.choice(range(80, 180))
     while True:
         try:
-            rep = requests.get(url,headers = header,timeout = timeout)
+            rep = requests.get(url,headers = header,timeout = timeout,proxies = { "http": None, "https": None})
             rep.encoding = 'utf-8'
             # req = urllib.request.Request(url, data, header)
             # response = urllib.request.urlopen(req, timeout=timeout)
